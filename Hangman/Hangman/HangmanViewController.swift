@@ -71,7 +71,6 @@ class HangmanViewController: UIViewController, UITextFieldDelegate {
             }
         }
         HiddenWord.text = newString
-        print(HiddenWord.text!.characters.count)
     }
     
     func updateIncorrectGuessesText(guess: String) {
@@ -101,7 +100,6 @@ class HangmanViewController: UIViewController, UITextFieldDelegate {
             //change hidden word if needed
             if hangman.containsGuess(guess: inputUpper) {
                 let indices = hangman.indicesOfLetter(letter: inputUpper)
-                print(indices)
                 updateHiddenWordText(guess: inputUpper, indices: indices)
                 hangman.incrCorrectLetters(indicesArr: indices)
             }

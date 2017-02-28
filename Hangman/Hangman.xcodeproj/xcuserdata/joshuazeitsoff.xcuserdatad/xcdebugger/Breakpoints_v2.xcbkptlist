@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hangman/HangmanViewController.swift"
-            timestampString = "509962963.608216"
+            timestampString = "509964633.08745"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "updateIncorrectGuessesText(guess:)"
             landmarkType = "7">
          </BreakpointContent>
